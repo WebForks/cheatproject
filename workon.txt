@@ -1,0 +1,19 @@
+Initialize the background process
+Set up hotkey listener for Ctrl + ,
+
+On Ctrl + , hotkey press:
+    Create and show the small white bar or window
+    Allow user input
+
+On user input:
+    Send the input to the GPT-4 API
+    Receive the response from the API
+
+    Display the response in the white bar or window
+
+    Listen for key presses
+    If any key other than Enter is pressed:
+        Minimize the white bar or window to the system tray or notification area
+
+On program exit:
+    Clean up resources and close the background process
